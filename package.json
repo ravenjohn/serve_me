@@ -1,0 +1,18 @@
+{
+  "name": "serve_me",
+  "description": "Serve static content",
+  "version": "0.0.01",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravenjohn/serve_me"
+  },
+  "bin": {
+    "unearth": "./serve_me.js"
+  },
+  "preferGlobal": "true",
+  "main": "./serve_me",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
