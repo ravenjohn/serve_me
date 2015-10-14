@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 
 if (!process.argv[2]) {
-	return console.log('path is missing');
+    return console.log('path is missing');
 }
 
 
